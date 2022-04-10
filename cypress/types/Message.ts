@@ -1,14 +1,14 @@
 /**
- * Error message for required fields
+ * Error message for required fields.
  */
 type Message = {
   /**
-   * Form filed
+   * Form filed.
    */
   field: string;
 
   /**
-   * Error message
+   * Error message.
    */
   output: string;
 };

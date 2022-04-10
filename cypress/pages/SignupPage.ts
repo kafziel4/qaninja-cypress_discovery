@@ -17,7 +17,7 @@ class SignupPage {
 
   /**
    * Fill the signup form with the delivery driver details.
-   * @param deliveryDriver The delivery driver details
+   * @param deliveryDriver The delivery driver details.
    */
   fillForm(deliveryDriver: DeliveryDriver): void {
     cy.get("input[name='fullName']").type(deliveryDriver.name);
@@ -62,7 +62,7 @@ class SignupPage {
 
   /**
    * Validate that the modal component displays the correct message.
-   * @param expectedMessage The expected message to be displayed
+   * @param expectedMessage The expected message to be displayed.
    */
   modalContentShouldBe(expectedMessage: string): void {
     cy.get(".swal2-container .swal2-html-container").should(
@@ -73,7 +73,7 @@ class SignupPage {
 
   /**
    * Validate that the alert message is correct.
-   * @param expectedMessage The expected message to be displayed
+   * @param expectedMessage The expected message to be displayed.
    */
   alertMessageShouldBe(expectedMessage: string): void {
     cy.contains(".alert-error", expectedMessage).should("be.visible");

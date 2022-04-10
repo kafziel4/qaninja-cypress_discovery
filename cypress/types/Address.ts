@@ -1,34 +1,34 @@
 /**
- * Delivery driver's address details
+ * Delivery driver's address details.
  */
 type Address = {
   /**
-   * Postal code
+   * Postal code.
    */
   postalCode: string;
 
   /**
-   * Street address
+   * Street address.
    */
   street: string;
 
   /**
-   * Street number
+   * Street number.
    */
   number: string;
 
   /**
-   * Apartment/suite/other
+   * Apartment/suite/other.
    */
   details: string;
 
   /**
-   * District
+   * District.
    */
   district: string;
 
   /**
-   * City/State
+   * City/State.
    */
   city_state: string;
 };

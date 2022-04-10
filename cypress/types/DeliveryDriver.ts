@@ -18,22 +18,22 @@ type DeliveryDriver = {
   email: string;
 
   /**
-   * Whatsapp number of the delivery driver
+   * Whatsapp number of the delivery driver.
    */
   whatsapp: string;
 
   /**
-   * Address of the delivery driver
+   * Address of the delivery driver.
    */
   address: Address;
 
   /**
-   * Delivery method used by the delivery driver
+   * Delivery method used by the delivery driver.
    */
   deliveryMethod: string;
 
   /**
-   * CNH of the delivery driver
+   * CNH of the delivery driver.
    */
   cnh: string;
 };

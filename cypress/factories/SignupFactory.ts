@@ -7,7 +7,7 @@ import { generate } from "gerador-validador-cpf";
 export default {
   /**
    * Creates a DeliveryDriver object with random properties.
-   * @returns The DeliveryDriver object
+   * @returns The DeliveryDriver object.
    */
   deliveryDriver(): DeliveryDriver {
     const firstName = faker.name.firstName();
